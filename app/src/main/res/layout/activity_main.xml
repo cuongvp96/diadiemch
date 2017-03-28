@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="c.top3haui.diadiemch.MainActivity">
+
+    <EditText
+        android:id="@+id/edTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ten" />
+    <EditText
+        android:id="@+id/edLoaiGas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="loai gas" />
+
+    <EditText
+        android:id="@+id/edMota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="motagia"></EditText>
+    <EditText
+        android:id="@+id/edSdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="sdt" />
+    <EditText
+        android:id="@+id/edChucuahang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chu cua hang" />
+    <Button
+        android:id="@+id/btn_getlocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get location" />
+
+    <EditText
+        android:id="@+id/edDiadiem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="dia diem" />
+
+    <EditText
+        android:id="@+id/edLatlng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="latlng" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create new" />
+
+    <Button
+        android:id="@+id/btn_getAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="getAll"
+
+        />
+
+
+</LinearLayout>
